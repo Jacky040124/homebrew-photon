@@ -5,16 +5,16 @@ class Photon < Formula
   
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/Jacky040124/photon/releases/download/v0.1.1/ptn-darwin-arm64"
-    sha256 "b536b1c1d6818b3d0376bc87694e1c26604bf89d772f8540f01b76bc387b6f79"
+    sha256 "524276d110475df1f2ea739247ff856d1e73e22a952867442ea809eaa6df9ad1"
   elsif OS.mac? && Hardware::CPU.intel?
     url "https://github.com/Jacky040124/photon/releases/download/v0.1.1/ptn-darwin-amd64"
-    sha256 "91a4df56a1388a5f63aae0328e9ad30b3722410074e9323d0880b73f033cb135"
+    sha256 "c03672d0357117985a79efb886e0d27a836c51f8ac7fe71853699fd816961e2f"
   elsif OS.linux? && Hardware::CPU.arm?
     url "https://github.com/Jacky040124/photon/releases/download/v0.1.1/ptn-linux-arm64"
-    sha256 "ed6e0670bbe66b296a489e6b727a5d887ce85b98b7147f59bc2cdb727dcaeff6"
+    sha256 "29ad0b6e8d26eb3fb8eee00c1f66e98f07da7e278cbc42cd5b4a5078b6aa5d27"
   elsif OS.linux? && Hardware::CPU.intel?
     url "https://github.com/Jacky040124/photon/releases/download/v0.1.1/ptn-linux-amd64"
-    sha256 "046f49e4f77332a502d27f24710ddc63fcee3df950bc24ec700204e4c7325ca6"
+    sha256 "7d28552e1a84cf89b4235f652e5fb8bf73263e205e74563ac6d5bef088aaeae1"
   end
 
   def install
