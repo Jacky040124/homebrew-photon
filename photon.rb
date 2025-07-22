@@ -1,20 +1,20 @@
 class Photon < Formula
   desc "Lightning-fast terminal research tool"
   homepage "https://github.com/Jacky040124/photon"
-  version "0.1.1"
+  version "0.1.2"
   
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/Jacky040124/photon/releases/download/v0.1.1/ptn-darwin-arm64"
-    sha256 "524276d110475df1f2ea739247ff856d1e73e22a952867442ea809eaa6df9ad1"
+    url "https://github.com/Jacky040124/photon/releases/download/v0.1.2/ptn-darwin-arm64"
+    sha256 "c7b5f59c73221abec6a1de8fb8316136ff822cf8df9aafe1469ab2bc52475cf5"
   elsif OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/Jacky040124/photon/releases/download/v0.1.1/ptn-darwin-amd64"
-    sha256 "c03672d0357117985a79efb886e0d27a836c51f8ac7fe71853699fd816961e2f"
+    url "https://github.com/Jacky040124/photon/releases/download/v0.1.2/ptn-darwin-amd64"
+    sha256 "ceb30a95b41f2f6fc68c87cf17615b3d9cfafa2ac371ec0a88e5b0b9462d3d5c"
   elsif OS.linux? && Hardware::CPU.arm?
-    url "https://github.com/Jacky040124/photon/releases/download/v0.1.1/ptn-linux-arm64"
-    sha256 "29ad0b6e8d26eb3fb8eee00c1f66e98f07da7e278cbc42cd5b4a5078b6aa5d27"
+    url "https://github.com/Jacky040124/photon/releases/download/v0.1.2/ptn-linux-arm64"
+    sha256 "68a4440f138c727406f8d2a0061f55c593234bb4327ac277c614dc209144fc8a"
   elsif OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/Jacky040124/photon/releases/download/v0.1.1/ptn-linux-amd64"
-    sha256 "7d28552e1a84cf89b4235f652e5fb8bf73263e205e74563ac6d5bef088aaeae1"
+    url "https://github.com/Jacky040124/photon/releases/download/v0.1.2/ptn-linux-amd64"
+    sha256 "61452a469160a922052ddbd17063bdc7f73943a837eb8e5628d7f650b3afc419"
   end
 
   def install
